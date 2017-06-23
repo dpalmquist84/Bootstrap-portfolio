@@ -9,7 +9,7 @@ html, body{
 .row {
 	background-color: #edecea !important;
 }
-footer, .push{
+footer {
    
 	text-align: center;
 	padding: 10px;
@@ -60,3 +60,6 @@ h1{
 	height: 50px;
 	display: block;
 }
+[class*="col"] { border-color: black;
+border-size: 1px;
+border-style: solid; }
