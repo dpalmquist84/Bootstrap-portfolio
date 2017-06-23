@@ -3,23 +3,42 @@
 <head>
 	<title>Contact Me</title>
 	<link rel="stylesheet" type="tyext/css" href="assets/reset.css"> 
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/contact.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<div class="wrapper">
+
 <body>
-<header>David S. Palmqiust</header>
-<nav>
-  <ul>
-   <li><a href="index.html">About Me</a></li>
-   <li><a href="portfolio.html">Portfolio</a></li>
-   <li><a href="contact.html">Contact</a></li>
-  </ul>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">David S. Palmquist</a>
+    </div>
+   
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+
+    </ul>
+  </div><!-- end container-fluid -->
 </nav>
 
-<section><h1>Contact Me</h1>
-  <div class="contactForm">
+<div class="container-fluid"> 
+  <div class="row">
+  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+
+  <h1>Contact Me</h1>
+  
     <form action=/action_page.php">
       <label for="fname">Name</label>
         <br>
@@ -33,29 +52,31 @@
         <br>
       <textarea id="message" name="message" placeholder="Your message here" style="height: 200px"></textarea>
         <br>
-      <input type="submit" value="submit"
+      <input type="submit" value="submit">
     </form>
-  </div>
-
- </section>
+  </div><!-- end col -->
 
 
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 
-
-
-<aside>
-
-	 <h1>Connect with Me</h1>
-       <a href="https://www.facebook.com/david.palmquist.3"><img src="./images/facebook.svg" width=50px alt="facebook"></a>
+   <div class="about"><h1>Connect with Me</h1></div>
+   
+       <a href="https://www.facebook.com/david.palmquist.3"><img src="./images/Facebook.svg" width=50px alt="facebook"></a>
        <a href="https://stackoverflow.com/users/7988158/dpalmquist" ><img src="./images/stackoverflow.svg" width=50px alt="stackoverflow"></a>
        <a href="https://github.com/dpalmquist84"><img src="./images/github.svg" width=50px alt="github"></a>
        <a href="https://www.linkedin.com/in/dpalmquist/"><img src="./images/LinkedIn.svg" width=50px alt="linkedin"></a>
 
-</aside><!-- end aside -->
-<div class="clear"></div>
 
+</div><!--end div about> -->
+</div><!--end div col -->
+</div><!--end div row -->
+
+
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 <footer><i class="fa fa-copyright" aria-hidden="true"></i>2017 David S. Palmquist</footer><!-- end footer -->
-</div>
-</div>
+</div> <!-- end div col -->
+</div> <!-- end div row-->
+</div> <!--end div container-fluid -->
 </body>
 </html>
