@@ -150,6 +150,10 @@ input[type=submit] {
 }
 #lorempixel {
 	float: left;
+  overflow: hidden; 
+  max-width: 100%;
+  width: 100%;
+
 }
 .navbar-right {
 	margin-right: 10%;
