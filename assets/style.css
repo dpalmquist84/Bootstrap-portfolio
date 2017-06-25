@@ -65,11 +65,11 @@ display: block;
 
 ul{
 	float: right;
-	margin-right: 10%;
+	margin-right: 20%;
 }
 .sidebar{
 	float: right;
-	
+	margin-right: 10%;
     width: 100%;
     max-width: 25%;
     padding: 30px;
@@ -147,4 +147,10 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+#lorempixel {
+	float: left;
+}
+.navbar-right {
+	margin-right: 10%;
 }
