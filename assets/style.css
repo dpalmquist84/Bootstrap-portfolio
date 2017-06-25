@@ -21,15 +21,7 @@ footer {
 	font-size: 15px;
 	
 }
-img{
-	height: 30px;
-	width: 30px;
-	vertical-align: middle;
-	border: 0px;
-    border-style: solid;
-	border-width: 1px;
-	border-color: gray;
-}
+
 #panthersPicture{
 	height: 133px;
 	width: 75px;
@@ -55,14 +47,13 @@ h1, h2, h3{
     line-height: 22px;
     border-bottom: 2px solid #eee;
 }
-
+h2 {
+	font-size: 22px;
+	text-align: center;
 }
-
-}
-.img {
-	width: 50px;
-	height: 50px;
-	display: block;
+.portfolio {
+	height: 200px;
+	width: 200px;
 }
 [class*="col"] { border-color: black;
 border-size: 1px;
@@ -80,7 +71,7 @@ ul{
 	float: right;
 	
     width: 100%;
-    max-width: 270px;
+    max-width: 25%;
     padding: 30px;
     margin-bottom: 20px;
     background: #fff;
@@ -105,4 +96,55 @@ nav a {
     line-height: 18px;
     color: #999;
     text-decoration: none;
-    border-left: 1px solid #efefef}
+    border-left: 1px solid #efefef
+}
+.about {
+	float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
