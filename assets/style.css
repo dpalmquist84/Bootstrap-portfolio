@@ -36,7 +36,9 @@ footer {
 .container-fluid {
 	background-color: #ffffff !important;
 
-
+}
+.container {
+  background-color: #e9e734;
 }
 
 h1, h2, h3{
@@ -51,16 +53,23 @@ h2 {
 	font-size: 22px;
 	text-align: center;
 }
-.portfolio {
-	height: 200px;
-	width: 200px;
+h3 {
+  position: relative;
+  bottom: 10%;
+  left: 10%;
 }
-[class*="col"] { border-color: black;
+.portfolio {
+	height: 150px;
+	width: 150px;
+}
+[class*="col"] { 
+background-color: #edecea;
+/*  border-color: black;
 border-size: 1px;
 border-style: solid;
 background-color: #ffffff;
 margin: auto;
-display: block;
+display: block; */
 	 }
 
 ul{
@@ -69,6 +78,7 @@ ul{
 }
 .sidebar{
 	float: right;
+  background-color: #edecea;
 
     width: 325px;
     max-width: 100%;
@@ -78,7 +88,7 @@ ul{
     border: 1px solid #ddd;
 }
 .main-content {
-	float: left;
+	  float: left;
     width: 100%;
     max-width: 650px;
     padding: 30px;
