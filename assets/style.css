@@ -158,3 +158,9 @@ input[type=submit] {
 .navbar-right {
 	margin-right: 10%;
 }
+
+@media screen and (max-width: 768px) {
+  .sidebar{
+    margin-right:30%;
+  }
+}
