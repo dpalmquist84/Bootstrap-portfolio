@@ -40,6 +40,9 @@ footer {
 .container {
   background-color: #e9e734;
 }
+* { 
+  box-sizing: border-box;
+   }
 
 h1, h2, h3{
 	text-align: left;
@@ -47,21 +50,33 @@ h1, h2, h3{
 	padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #9c9b9a;
 }
 h2 {
 	font-size: 22px;
 	text-align: center;
 }
 h3 {
-  position: relative;
-  bottom: 10%;
-  left: 10%;
+    position: absolute;
+    bottom: 15px;
+    margin-right: 5%;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
 .portfolio {
 	height: 150px;
 	width: 150px;
+  border: 0 none;
+  opacity: 0.8;
 }
+
 [class*="col"] { 
 background-color: #edecea;
 /*  border-color: black;
@@ -78,14 +93,12 @@ ul{
 }
 .sidebar{
 	float: right;
-  background-color: #edecea;
-
-    width: 325px;
-    max-width: 100%;
-    padding: 30px;
-    margin-bottom: 20px;
-    background: #fff;
-    border: 1px solid #ddd;
+  background-color: #ffffff;
+  width: 325px;
+  max-width: 100%;
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
 }
 .main-content {
 	  float: left;
@@ -167,6 +180,13 @@ input[type=submit] {
 }
 .navbar-right {
 	margin-right: 10%;
+}
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
 }
 
 @media screen and (max-width: 768px) {
